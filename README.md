@@ -11,9 +11,9 @@ At first, you can create a Microsoft Teams private channel in your Team for your
 
 <img width="318" alt="image" src="https://user-images.githubusercontent.com/26013798/166160012-81c74785-c3f5-42d9-be49-d01580533806.png">
 
-Sign into your account by running the following command on powershell: 
-```Connect-MicrosoftTeams```
+Run the config.ps1 script: 
+```.\config.ps1```
 This will prompt a pop-up on your browser allowing you to sign in to Teams with your account. Once you have done that: 
-- place script and csv in same folder and change directory to that folder
-- update script parameters 
-- run script
+- place script.ps1 and csv in same folder and change directory to that folder
+- update script parameters (the config script will return the groupID that you can use for script.ps1)
+- run the script: ```.\script.ps1```
